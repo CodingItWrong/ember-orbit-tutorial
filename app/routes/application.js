@@ -6,6 +6,10 @@ export default Route.extend({
 
   beforeModel() {
     const coordinator = this.dataCoordinator;
-    return coordinator.activate();
+    const backup = coordinator.getSource('backup');
+
+    return backup.pull(q => q.findRecords())
+        .then(transform => this.store.sync(transform))
+        .then(() => coordinator.activate());
   },
 });
