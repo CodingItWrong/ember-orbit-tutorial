@@ -11,7 +11,7 @@ export default {
       target: 'remote',
       action: 'push',
 
-      blocking: true,
+      blocking: false,
     });
   }
 };
