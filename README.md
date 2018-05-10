@@ -1,7 +1,8 @@
-# ember-pwa
+# ember-orbit-tutorial
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a tiny app demonstrating how to set up [ember-orbit](https://github.com/orbitjs/ember-orbit) in an Ember app.
+
+It uses [offline-api](https://github.com/CodingItWrong/offline-api), a Rails API, as a backend.
 
 ## Prerequisites
 
@@ -11,12 +12,11 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/)
 * [Yarn](https://yarnpkg.com/)
 * [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-pwa`
+* `git clone git@github.com:CodingItWrong/ember-orbit-tutorial.git`
+* `cd ember-orbit-tutorial`
 * `yarn install`
 
 ## Running / Development
@@ -44,14 +44,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## License
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+MIT
