@@ -2,6 +2,8 @@
 
 This is a tiny app demonstrating how to set up [ember-orbit](https://github.com/orbitjs/ember-orbit) in an Ember app.
 
+To learn how it works, follow along in the commit history, or read [the Ember-Orbit tutorial blog post](https://codingitwrong.com/2018/05/10/ember-orbit.html).
+
 It uses [offline-api](https://github.com/CodingItWrong/offline-api), a Rails API, as a backend.
 
 ## Prerequisites
